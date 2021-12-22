@@ -20,7 +20,7 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/jixiewang201907/openwrt
+  REPO_URL: https://github.com/jixiewang201907/Openwrt_Stable
   REPO_BRANCH: lede-17.01
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: stable-k2p.config
