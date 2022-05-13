@@ -36,7 +36,7 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/f
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #添加额外软件包
-git clone https://github.com/jixiewang201907/NueXini_Packages/tree/main/luci-app-ikoolproxy
+git clone https://github.com/jixiewang201907/NueXini_Packages/luci-app-ikoolproxy
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
