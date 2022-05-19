@@ -37,7 +37,7 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/f
 
 #添加额外软件包
 git clone  https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-https://github.com/jixiewang201907/app-ssr-plus package/luci-app-ssr-plus
+git clone --depth=1 https://github.com/jixiewang201907/app-ssr-plus package/luci-app-ssr-plus
 #git clone https://github.com/jerrykuku/lua-maxminddb.git /package
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone --depth=1 https://github.com/fw876/helloworld.git package/helloworld
