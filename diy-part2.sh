@@ -36,7 +36,7 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #添加额外软件包
-git clone  https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+#git clone  https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 #git clone https://github.com/jerrykuku/lua-maxminddb.git /package
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
