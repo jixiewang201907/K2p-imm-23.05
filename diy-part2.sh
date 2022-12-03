@@ -33,7 +33,7 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-th
 #git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 #git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
-git clone -b https://github.com/kiddin9/openwrt-packages/luci-app-bypass.git /package
+git clone -b luci-app-bypass https://github.com/kiddin9/openwrt-packages.git package/bypass
 
 #添加额外软件包
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/lean/luci-app-bypass
