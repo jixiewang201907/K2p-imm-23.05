@@ -33,10 +33,7 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/f
 #git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 #git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
-
-./scripts/feeds update -a
-./scripts/feeds install -a
-#git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
+git clone https://github.com/kiddin9/openwrt-packages.git package/openwrt-packages
 
 #添加额外软件包
 #svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/lean/luci-app-bypass
@@ -52,3 +49,6 @@ git clone htps://github.com/jerrykuku/lua-maxminddb.git /package/lean
 #添加smartdns
 #git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
+
+./scripts/feeds update -a
+./scripts/feeds install -a
