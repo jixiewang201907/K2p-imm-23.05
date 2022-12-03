@@ -33,10 +33,9 @@ git clone https://github.com/Leo-Jo-My/luci-theme-opentomcat.git package/luci-th
 #git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 #git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
-git clone https://github.com/jixiewang201907/openwrt-bypass.git package/luci-app-bypass
 
 #添加额外软件包
-#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/lean/luci-app-bypass
+svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 #git clone htps://github.com/jerrykuku/lua-maxminddb.git /package
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
