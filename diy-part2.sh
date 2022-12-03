@@ -36,7 +36,6 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/f
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #添加额外软件包
-git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-bypass package/luci-app-bypass
 #git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 git clone htps://github.com/jerrykuku/lua-maxminddb.git /package
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
