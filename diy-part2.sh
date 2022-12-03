@@ -33,6 +33,9 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/f
 #git clone https://github.com/openwrt-develop/luci-theme-atmaterial.git package/luci-theme-atmaterial
 #git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/small-5/luci-app-adblock-plus.git package/luci-app-adblock-plus
+
+./scripts/feeds update -a
+./scripts/feeds install -a
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
 #添加额外软件包
