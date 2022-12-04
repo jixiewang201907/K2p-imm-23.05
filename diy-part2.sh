@@ -36,15 +36,15 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/lean/default-settings/f
 
 #添加额外软件包
 #git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
 #git clone https://github.com/rufengsuixing/luci-app-adguardhome.git package/luci-app-adguardhome
 #git clone https://github.com/vernesong/OpenClash.git package/OpenClash
 #git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 #git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 #git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
-svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
+#svn co https://github.com/kiddin9/openwrt-packages/trunk/luci-app-bypass package/luci-app-bypass
 
 #添加smartdns
 #git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
