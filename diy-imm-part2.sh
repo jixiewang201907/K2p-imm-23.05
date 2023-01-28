@@ -15,7 +15,7 @@ sed -i 's/192.168.1.1/192.168.2.1/g' package/base-files/files/bin/config_generat
 # Clear the login password
 sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/emortal/default-settings/files/99-default-settings
 
-#sirpdboy
+# sirpdboy
 #git clone https://github.com/sirpdboy/sirpdboy-package.git package/sirpdboy-package
 #git clone https://github.com/sirpdboy/luci-theme-opentopd.git package/luci-theme-opentopd
 #git clone https://github.com/sirpdboy/luci-app-advanced.git package/luci-app-advanced
@@ -24,7 +24,7 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/emortal/default-setting
 #git clone https://github.com/sirpdboy/luci-app-poweroffdevice.git package/luci-app-poweroffdevice
 #git clone https://github.com/sirpdboy/luci-app-autotimeset.git package/luci-app-autotimeset
 
-#修正连接数（by ベ七秒鱼ベ）
+# 修正连接数（by ベ七秒鱼ベ）
 #sed -i '/customized in this file/a net.netfilter.nf_conntrack_max=165535' package/base-files/files/etc/sysctl.conf
 
 # themes添加（svn co 命令意思：指定版本如https://github）
@@ -34,7 +34,7 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/emortal/default-setting
 #git clone https://github.com/kiddin9/luci-app-dnsfilter.git package/luci-app-dnsfilter
 #git clone https://github.com/kenzok8/openwrt-packages.git package/openwrt-packages
 
-#添加额外软件包
+# 添加额外软件包
 #git clone https://github.com/1wrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
 #git clone htps://github.com/jerrykuku/lua-maxminddb.git /package
 #git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
@@ -44,7 +44,7 @@ sed -i 's/$1$V4UetPzk$CYXluq4wUazHjmCDBCqXF.//g' package/emortal/default-setting
 #git clone https://github.com/zzsj0928/luci-app-pushbot.git package/luci-app-pushbot
 #git clone https://github.com/riverscn/openwrt-iptvhelper.git package/openwrt-iptvhelper
 #git clone https://github.com/jerrykuku/luci-app-jd-dailybonus.git package/luci-app-jd-dailybonus
-#添加smartdns
+# 添加smartdns
 #git clone https://github.com/pymumu/openwrt-smartdns package/smartdns
 #git clone -b lede https://github.com/pymumu/luci-app-smartdns.git package/luci-app-smartdns
 
